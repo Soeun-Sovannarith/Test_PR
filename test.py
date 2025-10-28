@@ -17,3 +17,5 @@ print(lcs(X, Y))  # Output: 4
 
 print("hello world")
 
+print("This is Longest Common Subsequences (LCS) Algorithm")
+
