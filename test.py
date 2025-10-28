@@ -19,3 +19,9 @@ print("hello world")
 
 print("This is Longest Common Subsequences (LCS) Algorithm")
 
+
+lst = ["Git", "GitHub", "GitLab", "GitAction"]
+
+for l in lst:
+  print(l)
+
