@@ -11,25 +11,6 @@ def lcs(X, Y):
     return dp[m][n]
 
 # Example
-X = "ABCBDAB"
-Y = "BDCABA"
-print(lcs(X, Y))  # Output: 4
-
-print("hello world")
-
-print("This is Longest Common Subsequences (LCS) Algorithm")
-
-
-lst = ["Git", "GitHub", "GitLab", "GitAction"]
-
-for l in lst:
-  print(l)
-
-
-
-print("This is the last testing")
-print("This is also the last testing")
-print("Pull request Testing")
-print("Testing pull request in production")
-print("Another Testing of pull request in Github")
-
+X = "ABCDEFG"
+Y = "HIJKLMN"
+print(f"LCS of '{X}' and '{Y}': {lcs(X, Y)}")
