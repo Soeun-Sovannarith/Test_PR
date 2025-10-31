@@ -5,7 +5,7 @@ def lcs(X, Y):
     for i in range(1, m+1):
         for j in range(1, n+1):
             if X[i-1] == Y[j-1]:
-                dp[i][j] = 1 + dp[i-1][j-1]
+                dp[i][j] = dp[i-1][j-1] + 1
             else:
                 dp[i][j] = max(dp[i-1][j], dp[i][j-1])
     return dp[m][n]
@@ -15,7 +15,5 @@ X = "ABCDEFG"
 Y = "HIJKLMN"
 print(f"LCS of '{X}' and '{Y}': {lcs(X, Y)}")
 
-
-print("Testing Pull Request")
-print("Another Testing of Pull Request")
-print("Longest Common Subsequence (LCS) Algorithm")
+print("testing")
+print("This is pull request testing")
