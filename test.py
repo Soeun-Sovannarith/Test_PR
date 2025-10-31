@@ -15,5 +15,4 @@ X = "ABCDEFG"
 Y = "HIJKLMN"
 print(f"LCS of '{X}' and '{Y}': {lcs(X, Y)}")
 
-print("testing")
-print("This is pull request testing")
+print("This is pull request Testing")
