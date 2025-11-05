@@ -15,12 +15,4 @@ X = "ABCDEFG"
 Y = "HIJKLMN"
 print(f"LCS of '{X}' and '{Y}': {lcs(X, Y)}")
 
-print("This is pull request Testing")
-
-print("This is another pull request Testing")
-
-print("This is Longest Common Subsequence (LCS)")
-print("This is also test Pull request")
-print("This is also anothr pull request testing")
-print("This is also anothr pull request testing2")
-print("hi im vortey")
+print("This is pull request testing")
